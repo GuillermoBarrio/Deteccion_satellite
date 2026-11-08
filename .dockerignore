@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Git y CI
+.git/
+.github/
+
+# IDE
+.vscode/
+.idea/
+
+# Secretos y entorno
+.env
+.env.*
+
+# Logs y temporales
+*.log
+.DS_Store

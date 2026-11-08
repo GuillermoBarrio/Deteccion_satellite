@@ -1,0 +1,40 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Artefactos de empaquetado
+build/
+dist/
+*.egg-info/
+
+# Variables de entorno y secretos
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Archivos de configuración del IDE/Editor
+.vscode/
+.idea/
+
+# Metadatos de Windows
+*:Zone.Identifier
+
+# Metadatos de macOS
+.DS_Store
+
+# Terraform (por si lo usas en el futuro)
+*.tfstate
+*.tfstate.backup
