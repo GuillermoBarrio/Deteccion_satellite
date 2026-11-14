@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 3. Copia el resto del código (si solo cambia un .py, esta capa se reconstruye pero la de pip no)
 COPY . .
 
-CMD ["python", "tu_app.py"]
+CMD streamlit run app/main.py --server.port $PORT --server.address 0.0.0.0
