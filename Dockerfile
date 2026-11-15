@@ -1,6 +1,7 @@
 FROM python:3.12-slim
 
 WORKDIR /app
+ENV PYTHONPATH=/app
 
 # 1. Copia SOLO el archivo de dependencias
 COPY requirements.txt .
